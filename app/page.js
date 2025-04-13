@@ -3,11 +3,6 @@ import DraggableImg from '@/components/draggableImg';
 export default function Home() {
   const images = [
     {
-      id: 'background',
-      src: 'background.svg',
-      classes: ''
-    },
-    {
       id: 'cave',
       src: 'cave.svg',
       classes: ''
