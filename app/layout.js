@@ -7,7 +7,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
+      <head>
+        <meta
+          name='viewport'
+          content='width=1200'
+        />
+        <meta
+          name='apple-mobile-web-app-capable'
+          content='yes'
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
